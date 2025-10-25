@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/basic_wallet_contract.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.token_integration]
+path = 'contracts/token_integration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
