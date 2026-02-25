@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.audit_trail_wallet]
+path = 'contracts/audit_trail_wallet.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.basic_wallet_contract]
 path = 'contracts/basic_wallet_contract.clar'
 clarity_version = 2
